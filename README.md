@@ -1,3 +1,4 @@
+```yaml
 ---
 - name: nxinx for otus
   hosts: web
@@ -33,3 +34,5 @@
         name: nginx
         state: restarted
 ...
+  yaml: data
+```
