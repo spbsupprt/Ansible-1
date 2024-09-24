@@ -34,5 +34,13 @@
         name: nginx
         state: restarted
 ...
-  yaml: data
 ```
+inventory 
+vm1
+vm2
+vm3
+vm4
+vm5
+[web]
+vm2
+
