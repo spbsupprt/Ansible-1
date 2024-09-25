@@ -20,7 +20,7 @@
       notify:
         - Restart nginx
 
-    - name: Fix lvmlockd.service
+    - name: NGINX | Create NGINX config file from template
       ansible.builtin.copy:
         src: src/nginx.conf.j2
         dest: /tmp/nginx.conf
