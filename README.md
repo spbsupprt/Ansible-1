@@ -30,7 +30,7 @@
 
   handlers:
     - name: Restart nginx
-      ansible.builtin.service:
+      ansible.builtin.systemd_service:
         name: nginx
         state: restarted
 ...
